@@ -1,0 +1,11 @@
+[project]
+name = "hpc-env"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "darts>=0.37.1",
+    "intake-parquet>=0.3.0",
+    "intake-xarray>=2.0.0",
+]
